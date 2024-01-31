@@ -1,2 +1,3 @@
-venv/
-Public/
+/venv
+/Public
+/Fonts
