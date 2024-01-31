@@ -32,3 +32,5 @@ if 7 not in a:
     #             square_x, square_y = self.get_mouse_index()
     #             if square_x < 64 and square_y < 64:
     #                 self.has_piece[Config.piece_index].move(square_x, square_y)
+
+    print(-12//6)
