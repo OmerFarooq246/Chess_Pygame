@@ -6,6 +6,7 @@ class Config:
     end_color = ""
     focus_color_dark = ""
     focus_color_light = ""
+    piece_index = None
 
     def __init__(self, start_color, end_color, focus_color_dark, focus_color_light, scale, offset_x, offset_y):
         Config.offset_x = offset_x
