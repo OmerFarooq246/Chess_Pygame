@@ -5,4 +5,4 @@ class King(Piece):
                      Piece.main_path + "/b_king_png_128px.png"]
     
     def __init__(self, side, square_x, square_y):
-        super().__init__(King.pawn_img_path[side], square_x, square_y)
+        super().__init__(King.pawn_img_path[side], side, square_x, square_y)
